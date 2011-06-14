@@ -369,6 +369,13 @@ class SteamId {
     }
 
     /**
+     * @return String
+     */
+    public function getSteamId64() {
+        return $this->steamId64;
+    }
+
+    /**
      * Returns whether the owner of this SteamID is VAC banned
      * @return boolean
      */
